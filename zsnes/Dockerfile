@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM debian:latest
 MAINTAINER Cristobal Silva <crsilva@ing.uchile.cl>
 
 RUN dpkg --add-architecture i386 && \
